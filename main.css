@@ -1,0 +1,41 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#hud {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    position: absolute;
+}
+
+.hud-cell {
+    float: left;
+}
+
+#play-area {
+    background-color: black;
+    position: relative;
+}
+
+#player {
+    background-color: red;
+    position: absolute;
+}
+
+#test-wall {
+    background-color: green;
+    position: absolute;
+}
+
+#gameover {
+    color: white;
+    font-size: 100;
+    text-align: center;
+    display: none;
+    width: 100%;
+    z-index: 1000;
+    position: absolute;
+}
